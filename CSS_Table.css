@@ -1,10 +1,12 @@
 td:hover{
 background-color:yellow;
-color:black;
+color:red;
+text-transform:uppercase;
 }
 
 table,td,th{
 	width:700px;
 	height:75px;
 	border:solid black 2px;
+	
 }
