@@ -1,0 +1,19 @@
+body{
+	background-color:#333;
+	text-align:center;
+	font-size:30px;
+}
+
+
+
+
+ol{
+	list-style-type:upper-roman;
+	color:white;
+}
+
+ul{
+	list-style-type:square;
+	color:white;
+	
+}
