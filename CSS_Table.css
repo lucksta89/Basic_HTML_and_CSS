@@ -1,0 +1,8 @@
+td:hover{
+background-color:yellow;
+color:black;
+}
+
+table,td,th{
+	border:solid black 2px;
+}
