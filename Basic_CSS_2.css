@@ -1,0 +1,39 @@
+p {
+	color:lightgreen;
+	background-color:#333;
+	font-size:100px;
+	text-align:center;
+}
+
+
+.copywright{
+	position:absolute;
+	left:450px;
+	text-align:center;
+	font-size:60px;
+	border:black 1px solid;
+	width:400px;
+	text-shadow:5px 5px black;
+	box-shadow:10px 10px 10px 10px black;
+	bottom:20px;
+}
+
+ul{
+	width:300px;
+	color:white;
+	background-color:black;
+	list-style-type:square;
+	text-align:center;
+		font-size:50px;
+		text-transform:uppercase;
+}
+
+ol{
+	width:300px;
+	color:white;
+	background-color:black;
+	list-style-type:upper-roman;
+	text-align:center;
+	font-size:50px;
+	text-transform:uppercase;
+}
