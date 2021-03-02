@@ -3,6 +3,7 @@
 <head>
 	<title>one page website</title>
 	<meta charset="utf-8">
+	<meta name="author" content="Daniel luck">
 </head>
 <body>
 
@@ -14,7 +15,7 @@
 	<!-- end bookmarks -->
 		
 	<!-- header with paragragh -->
-	<h1> lucky holiday's </h1>
+	<h1> Lucky Holiday's </h1>
 	<p> welcome to the holiday page take a look at the hotels shown below! </p>
 	<!-- end header with paragragh -->
 	
@@ -35,17 +36,25 @@
 	<!-- contact form -->
 	<div id="form">
 		<form action="" method="post"><br>
-		First name:<input type="text" name="first_name"><br>
-		Last name:<input type="text" name="last_name"><br>
-		Email:<input type="email" name="email"><br>
-		Message:<textarea rows="5" cols="30" name="message"></textarea><br>
+		First name:<input type="text" name="first_name" placeholder="Enter Here!"><br>
+		Last name:<input type="text" name="last_name" placeholder="Enter Here!"><br>
+		Email:<input type="email" name="email" placeholder="Enter Here!"><br>
+		<label for="country">Country:</label>
+		<select>
+				<option value="uk">UK</option>
+				<option value="europe">Europe</option>
+				<option value="america">America</option>
+				<option value="australia">Australia</option>
+		</select>
+		<br>
+		Message:<textarea rows="5" cols="30" name="message" placeholder="Type your message here!"></textarea><br>
 		<input type="submit" name="submit" value="submit"><br>
 	</form>
 	</div>
 	
 	<!-- end of form -->
 	
-	<footer>&copy space station 2021</footer>
+	<footer>&copy space station 2021 </footer>
 		
 		
 </body>
