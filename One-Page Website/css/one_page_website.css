@@ -32,33 +32,40 @@ body{
 }
 
 #form{
-    position: absolute;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    position:relative;
     left:430px;
     text-align: center;
-    width: 400px;
     height:230px;
     border:solid black 2px;
     box-shadow:15px 15px 15px black;
     border-radius: 10%;
+    width:30%;
+    height:260px;
+  
 }
+
 
 footer{
     background-color: #333;
     color:white;
-    position: absolute;
-    left:550px;
-    bottom:-700px;
+    text-align: center;
+    position: relative;
+    bottom:-10px;
 }
 
 input[type=text],[type=email] {
-    width: 60%;
+    width: 20%;
     border:solid black 1px;
     margin-bottom: 5px;
     background-color: lightgrey;
     color:black;
     border-radius: 10%;
     cursor: pointer;
+    text-align: center;
   }
+
   input[type=submit]{
     cursor: pointer;
   }
