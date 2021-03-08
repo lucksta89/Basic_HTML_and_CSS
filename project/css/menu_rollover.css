@@ -58,12 +58,12 @@ body {
 	top:43.5px;
 	width:125.5px;
 	opacity:0;
-	/* while not bieng hovered, drop down-menu hides
+	/* while not being hovered, drop down-menu hides
 	this also avoids block-level bug */
 	visibility:hidden;
 }
 
-submenu li{
+.submenu li{
 	background-color: #387593;
 	display:block;
 	color:#b3b3b3;
